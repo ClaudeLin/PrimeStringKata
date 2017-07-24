@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeStringKata", "PrimeStringKata\PrimeStringKata.csproj", "{3F454AB1-BF2B-4F55-86C9-1B28D9B7844D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeStringKataTest", "PrimeStringKataTest\PrimeStringKataTest.csproj", "{354A4BD4-43AE-4929-8FAC-58CDC06BF2A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F454AB1-BF2B-4F55-86C9-1B28D9B7844D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F454AB1-BF2B-4F55-86C9-1B28D9B7844D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F454AB1-BF2B-4F55-86C9-1B28D9B7844D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F454AB1-BF2B-4F55-86C9-1B28D9B7844D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{354A4BD4-43AE-4929-8FAC-58CDC06BF2A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{354A4BD4-43AE-4929-8FAC-58CDC06BF2A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{354A4BD4-43AE-4929-8FAC-58CDC06BF2A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{354A4BD4-43AE-4929-8FAC-58CDC06BF2A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
