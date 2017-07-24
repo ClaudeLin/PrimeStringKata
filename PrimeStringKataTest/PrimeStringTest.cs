@@ -1,23 +1,27 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using NUnit.Framework;
 using PrimeStringKata;
 
 namespace PrimeStringKataTest
 {
-	[TestClass]
+	[TestFixture]
 	public class PrimeStringTest
 	{
-		[TestMethod]
-		public void Check_a_should_be_true()
+		[Test]
+		[TestCase("a",true)]
+		[TestCase("aa",false)]
+		[TestCase("abab",false)]
+		[TestCase("abc",true)]
+		[TestCase("abcabcabcd",true)]
+		[TestCase("asdfasdfasdfasdf",false)]
+		[TestCase("asdasdadasd",true)]
+		public void TestIsPrimeString(string inputString, bool expected)
 		{
 			var target = new PrimeString();
-			var inputString = "a";
 
 			var actual = target.IsPrimeString(inputString);
 
-			Assert.IsTrue(actual);
+			Assert.AreEqual(expected, actual);
 		}
-
-		
 	}
+
 }
