@@ -53,6 +53,12 @@
     <Compile Include="PrimeStringTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\PrimeStringKata\PrimeStringKata.csproj">
+      <Project>{3f454ab1-bf2b-4f55-86c9-1b28d9b7844d}</Project>
+      <Name>PrimeStringKata</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

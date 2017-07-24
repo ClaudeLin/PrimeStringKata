@@ -8,5 +8,9 @@ namespace PrimeStringKata
 {
     public class PrimeString
     {
+	    public bool IsPrimeString(string inputString)
+	    {
+			return true;
+	    }
     }
 }
